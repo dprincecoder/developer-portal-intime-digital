@@ -1,0 +1,46 @@
+.developer-stats h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  margin-bottom: 10px;
+}
+
+.developer-stats p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-transform: capitalize;
+}
+
+.developer-stats-keys {
+  margin-top: 20px;
+}
+
+.developer-stats-keys-item {
+  padding: 12px 24px;
+  background: rgba(54, 131, 252, 0.1);
+  border-radius: 48px;
+  margin-right: 12px;
+  width: fit-content;
+  height: max-content;
+}
+
+.developer-stats-keys-item a {
+  color: #0c1e3c !important;
+}
+
+@media screen and (max-width: 768px) {
+  .developer-stats h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .developer-stats p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .developer-stats-keys-item {
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

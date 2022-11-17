@@ -1,0 +1,38 @@
+nav {
+  height: 44.46px;
+  padding: 36px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-avatar p {
+  font-weight: 400;
+  margin-right: 16px;
+}
+
+.nav-avatar .usr-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 36px 32px;
+  }
+
+  .nav-logo {
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,147 @@
+.stats-widget {
+  display: flex;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.stats-details-wrap {
+  margin-top: 3rem;
+  background: #ffffff;
+  box-shadow: 6px 6px 48px rgba(12, 30, 60, 0.03);
+  border-radius: 18px;
+  padding: 1.5rem;
+  width: 540px;
+  height: max-content;
+  overflow-x: auto;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  /* margin: 25px 0; */
+  font-size: 0.9em;
+  font-family: "DM Sans", sans-serif;
+  min-width: 400px;
+}
+
+.styled-table thead {
+  margin-bottom: 1rem !important;
+}
+
+.styled-table thead tr {
+  text-align: left;
+}
+
+.styled-table tbody {
+  margin-top: 1rem !important;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "DM Sans";
+  line-height: 31px;
+
+  /* brand/Maastricht Blue (black equivalent) */
+
+  color: #0c1e3c;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.table-body-td {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "DM Sans";
+  line-height: 31px;
+  color: #0c1e3c;
+}
+
+.table-stats-key {
+  background: rgba(54, 131, 252, 0.1);
+  border-radius: 6px;
+  padding: 3px 1rem;
+  margin-bottom: 0.5rem !important;
+  width: max-content;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 31px;
+  text-transform: capitalize;
+
+  color: #909ba6;
+}
+
+.see-more {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 31px;
+  text-transform: capitalize;
+  color: #3683fc;
+  margin-left: 3rem;
+}
+
+.stats-graph {
+  margin-left: 2rem;
+}
+
+.shifter {
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+
+.thick-line-img,
+.dotted-line-img {
+  width: 40px;
+  height: 20px;
+}
+
+.graph-body {
+  margin-top: 1rem;
+  width: 604px;
+  height: 439px;
+}
+
+@media screen and (max-width: 768px) {
+  .stats-widget {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats-details-wrap {
+    width: 300px;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .stats-graph {
+    margin-top: 1rem;
+  }
+
+  .graph-body {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .stats-widget {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats-details-wrap {
+    width: 600px;
+    /* margin: 0; */
+    /* padding: 1rem; */
+  }
+
+  .stats-graph {
+    margin-top: 4rem;
+  }
+
+  .graph-body {
+    width: 600px;
+    height: 600px;
+  }
+}
